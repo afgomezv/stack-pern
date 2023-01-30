@@ -14,7 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<TaskList />} />
           <Route path="/task/new" element={<TaskForm />} />
-          {/*Edit Route */}
+          <Route path="/tasks/:id/edit" element={<TaskForm />} />
         </Routes>
       </Container>
     </BrowserRouter>
